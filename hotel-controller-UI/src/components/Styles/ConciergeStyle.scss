@@ -1,0 +1,57 @@
+$cAccent: #565656;
+.wrapper {
+  // position: relative;
+  display: flex;
+  width: 150px;
+  height: 38.83px;
+  left: 924px;
+  top: 300px;
+  overflow: hidden;
+  background: linear-gradient(158.21deg, #ffffff 4.98%, #ffffff 94.88%);
+  box-shadow: -12px -12px 20px rgba(255, 255, 255, 0.8),
+    10px 10px 20px rgba(166, 180, 200, 0.7);
+  border-radius: 40px;
+}
+
+.call-button {
+  position: relative;
+  width: 150px;
+  height: 38.83px;
+  // background-color: white;
+  // border-color: white;
+  outline: none;
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
+  &:hover {
+    color: $cAccent;
+  }
+}
+
+.call-icon {
+  position: relative;
+  display: contents;
+  width: 20px;
+  height: 20px;
+  
+  
+
+  // float: left;
+}
+.CallUs {
+  width: 43px;
+height: 17px;
+left: 965.23px;
+top: 219.64px;
+  // float: right;
+  display: contents;
+  position: relative;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+letter-spacing: 0.02em;
+
+color: #565656;
+
+}

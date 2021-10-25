@@ -1,0 +1,72 @@
+$cAccent: #565656;
+$size: 4rem;
+$size-multiplier: 2.5;
+
+.counter{
+  position: absolute;
+  display: contents;
+  align-items: center;
+  justify-content: center;
+}
+
+.stepper-wrapper {
+  position: absolute;
+  display: flex;
+  width: $size * $size-multiplier;;
+  height: $size;
+  border-radius: $size;
+  background: rgba(rgba(115, 117, 121, 0.596), .25);
+  position: relative;
+  font-family: 'Poppins';
+  overflow: hidden;
+  box-shadow: inset -21px 80px 180px -10px rgba(92,93,102,0.14);
+}
+
+.input-wrapper{
+  margin: auto;
+  width: $size;
+  height: $size;
+  border-radius: 50%;
+  background: #565656;
+  background: linear-gradient(134.17deg, #565656 4.98%, #565656 94.88%);
+  opacity: 0.8;
+  // box-shadow: -1px 57px 80px -17px rgba(255, 73, 87, 0.25);
+  overflow: hidden;
+  z-index: 2;
+  // overflow: hidden;
+  // box-shadow:
+  //   inset 0 0 0.8rem 0.1rem rgba(darken(#7D7987, 20%), 0.2),
+  //   0 20px 30px -10px rgba(darken(#7D7987, 20%), 0.26);
+  box-shadow: 4px 4px 15px 5px rgba(0, 0, 0, .2);
+}
+
+.input{
+
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background: none;
+  border: none;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.6rem;
+  outline: none;
+  transition-property: transform, opacity;
+  text-transform: linear;
+  transition-duration: 0.25s;
+}
+
+.button{
+  background: none;
+  border: none;
+  padding: 0.8rem;
+  color: rgba(#fff, 0.35);
+  font-size: 1.6rem;
+  outline: none;
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
+  font-size: 36px;
+  &:hover{
+    color: $cAccent; 
+  }
+}

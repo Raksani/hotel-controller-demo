@@ -1,0 +1,145 @@
+.pane-container {
+    /* position: absolute; */
+    float: left;
+    left: 0%;
+    right: 76.36%;
+    top: 0%;
+    bottom: 52.62%;
+    
+    background: #FFFFFF;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    width: 260px;
+    height: 262px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin-right: 20px;
+    margin-bottom: 28px;
+    }
+    
+    
+    
+    .text-container{
+      position: relative;
+      width: 190px;
+      height: 200px;
+      left: 37px;
+      top: 30px;  
+      /* border: solid; */
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      padding: 0px;
+    }
+
+    
+    
+    .icon {
+      position: absolute;
+      float: left;
+      left: 0%;
+      right: 60.59%;
+      top: 0%;
+      bottom: 45.21%;
+      width: 80px;
+      background-repeat: no-repeat;
+    }
+    
+    #light-style.icon{
+      background-image: url("../Icon/light.svg");
+      height: 68.8px;
+      
+    }
+    
+    #air-style.icon{
+      background-image: url("../Icon/air.svg");
+    }
+    
+    #room-service-style.icon{
+      background-image: url("../Icon/roomservice.svg");
+    
+    }
+    
+    #concierge-style.icon{
+      background-image: url("../Icon/concierge.svg");
+    }
+    
+    #language-style.icon {
+      background-image: url("../Icon/lang.svg");
+    }
+    #amenity-style.icon{
+      margin-top: -10px;
+      background-image: url("../Icon/amenity.svg");
+    
+    }
+    
+    #hotel-style.icon{
+      background-image: url("../Icon/hotel.svg");
+    
+    }
+    
+    #room-status-style.icon {
+      background-image: url("../Icon/roomstatus.svg");
+      
+    }
+    
+    .detail {
+      position: absolute;
+      float: left;
+      left: 0%;
+      right: 0%;
+      top: 45%;
+    
+      font-family: 'MuliLight';
+      font-weight: normal;
+      font-style: normal;
+      font-size: 14px;
+      line-height: 25px;
+      /* or 179% */
+    
+      color: #7d7987;
+    
+      mix-blend-mode: normal;
+    }
+    
+    #language-style.title {
+      margin-top: 20px;
+    }
+    
+    #concierge-style.title {
+      margin-top: 20px;
+    }
+    
+    #amenity-style.title {
+      margin-top: 10px;
+    }
+    
+    
+    .title{
+      position: absolute;
+      left: 50.56%;
+      right: 2.78%;
+      top: 2.36%;
+      bottom: 68.1%;
+    
+      font-family: 'MuliBold';
+      font-weight: normal;
+      font-style: normal;
+      font-size: 22px;
+      
+      /* or 104% */
+    
+      color: #000000;
+    
+      mix-blend-mode: normal;
+    }
+
+    .switch {
+      position: absolute;
+      top: 70%;
+      width: 100%;
+      text-align: -webkit-center;
+    }
+
+   
